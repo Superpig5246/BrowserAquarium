@@ -1,7 +1,7 @@
 // import React, { useDeferredValue, useEffect, useRef, useState } from 'react';
 //import { resourceLimits } from 'worker_threads';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Fish = ({ incrementCount, fish, value = 1 }) => {
     const [pos, setPos] = useState([Math.random() * 95, Math.random() * 100]);
